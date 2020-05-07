@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.bookingModal{
+    position: relative;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.438);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.close{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(143, 142, 142);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form{
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    background-color: #fff;
+
+}
+
+.calendar{
+
+    &__container{
+        position: absolute;
+        top: 150px;
+        width: 600px;
+        background-color: #fff;
+        border-radius: 3px;
+
+    }
+
+    &__header{
+        height: 80px;
+        width: 100%;
+        background-color: rgb(189, 189, 189);
+        display: flex;
+        border-radius: 3px;
+        
+    }
+
+    &__prev{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    &__monthAndYear{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    &__next{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;   
+    }
+}
+
+table{
+    display: table;
+    width: 100%;
+}
+
+thead{
+    width: 100%;
+
+}
+tr{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+th{
+    padding: 10px 20px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+
+td{
+    border: 1px solid rgb(185, 185, 185);
+    text-align: center;
+    cursor: pointer;
+}

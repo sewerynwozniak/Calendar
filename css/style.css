@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #636363;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookingModal {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.438);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.close {
+  height: 30px;
+  width: 30px;
+  background-color: #8f8e8e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.form {
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  top: 30px;
+  background-color: #fff;
+}
+
+.calendar__container {
+  position: absolute;
+  top: 150px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.calendar__header {
+  height: 80px;
+  width: 100%;
+  background-color: #bdbdbd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 3px;
+}
+
+.calendar__prev {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.calendar__monthAndYear {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+.calendar__next {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+table {
+  display: table;
+  width: 100%;
+}
+
+thead {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #b9b9b9;
+}
+
+th {
+  padding: 10px 20px;
+  border: 1px solid #b9b9b9;
+}
+
+td {
+  border: 1px solid #b9b9b9;
+  text-align: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
